@@ -1,8 +1,7 @@
 'use strict';
+require('console.table');
 const mysql = require('mysql');
 const inquirer = require('inquirer');
-const cTable = require('console.table'); 
-require('dotenv').config()
 
 const promptMessages = {
     viewAllEmployees: "View All Employees",
@@ -28,15 +27,6 @@ connection.connect(err => {
   console.log('connected as id ' + connection.threadId);
   afterConnection();
 });
-
-afterConnection = () => {
-  console.log("*********************************")
-  console.log("*                               *")
-  console.log("*       EMPLOYEE MANAGER        *")
-  console.log("*                               *")
-  console.log("*********************************")
-  promptUser();
-};
 
 function prompt() {
     inquirer

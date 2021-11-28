@@ -35,14 +35,14 @@ VALUES
 INSERT INTO role
     (title, salary, department_id)
 VALUES
-    ('General Manager', 11000000, 1),
-    ('Coach', 4000000, 1),
-    ('Team Lead Analyst', 15000000, 2),
-    ('Team Analyst', 8000000, 2),
-    ('Media Manager', 7000000, 3),
-    ('Media Specialist', 3000000, 3),
-    ('CEO', 45000000, 4),
-    ('CEO Assistant', 25000000, 4);
+    ('General Manager', 12000000, 1),
+    ('Coach', 4100000, 1),
+    ('Team Lead Analyst', 16000000, 2),
+    ('Team Analyst', 9000000, 2),
+    ('Media Manager', 6000000, 3),
+    ('Media Specialist', 2000000, 3),
+    ('CEO', 49000000, 4),
+    ('CEO Assistant', 26000000, 4);
 INSERT INTO employee
     (first_name, last_name, role_id, manager_id)
 VALUES
